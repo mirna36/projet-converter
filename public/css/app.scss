@@ -1,0 +1,57 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Modak&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Modak&family=Playfair+Display:ital@0;1&display=swap');
+
+body{
+  background-color:#e3f2fd;
+}
+
+//HEADER
+header{
+  font-family: 'Modak', cursive;
+  font-size: 4rem;
+  color: #0097a7;
+  background-color:#f9fbe7 ;
+  padding: .5rem;
+  text-align: center;
+  text-transform: capitalize;
+  border-left:.5rem #0097a7 solid ;
+  border-right:.5rem #0097a7 solid ;
+
+}
+//CADRE FORM
+.card_form{
+  width: 40%;
+  margin: 4rem auto;
+  background-color: white;
+
+  .card_titre{
+    text-align: center;
+    padding: 1rem;
+    background-color:#004d40 ;
+    color: whitesmoke;
+    font-size: 3rem;
+    text-transform: capitalize;
+    font-family:'Playfair Display', serif;
+  }
+
+  .card_body{
+    margin: .2rem 1rem;
+    padding-bottom: 1rem;
+
+    .form-control{
+      border-radius: 0;
+      padding: 1.5rem 1rem;
+      margin-bottom: 1.5rem;
+
+    }
+
+
+    .btn{
+
+border-radius: 0;
+      padding: .5rem .5rem;
+    }
+  }
+
+}
