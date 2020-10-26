@@ -3,8 +3,11 @@ session_start();
 
 if(empty($_SESSION['login'])){
     header("Location:login.php");
+    exit();
 }
 
+//Si j'arrive ici, c'est que la session contient un login
+$login = $_SESSION['login'];
 ?>
 <!doctype html>
 

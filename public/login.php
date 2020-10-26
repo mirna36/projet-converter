@@ -8,7 +8,7 @@ if(!empty($_POST['login'])){
     $mdp = trim($_POST['mdp']);
 
 
-// jE METS LA SAISIE DANS DES SESSION
+//JE METS LA SAISIE DANS DES SESSION
     $_SESSION['login'] = $login;
     $_SESSION['mdp'] = $mdp;
 
@@ -53,7 +53,7 @@ if(!empty($_POST['login'])){
             <div class="form-group mt-3">
 
                 <input type="text" class="form-control" id="login"
-                       placeholder="Entrez votre login" name="login">
+                       placeholder="Entrez votre identifiant" name="login">
 
             </div>
             <div class="form-group mt-3">
